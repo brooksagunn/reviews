@@ -34,6 +34,18 @@
   text-align: center;
 }
 
+.card > * {
+  transition: 1s;
+}
+
+.card > *.next {
+  margin-left: 50px;
+}
+
+.card > *.prev {
+  margin-left: -50px;
+}
+
 .arrow {
   width: 50px;
   height: 50px;
@@ -59,7 +71,7 @@
   position: relative;
 }
 
-.icon-anim {
+.arr-anim {
   left: 0;
   transition: 0.25s;
 }
